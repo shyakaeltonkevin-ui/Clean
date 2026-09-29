@@ -17,7 +17,7 @@ const PEOPLE = [
 const ROOMS = [
     "Kitchen",
     "Bathroom",
-    "Living Room"
+    "Corridor"
 ];
 
 
@@ -42,17 +42,17 @@ const ROTATIONS = [
     {
         Boel: "Kitchen",
         Elton: "Bathroom",
-        Simon: "Living Room"
+        Simon: "Corridor"
     },
 
     {
         Boel: "Bathroom",
-        Elton: "Living Room",
+        Elton: "Corridor",
         Simon: "Kitchen"
     },
 
     {
-        Boel: "Living Room",
+        Boel: "Corridor",
         Elton: "Kitchen",
         Simon: "Bathroom"
     },
@@ -64,12 +64,12 @@ const ROTATIONS = [
 
     {
         Boel: "Bathroom",
-        Elton: "Living Room",
+        Elton: "Corridor",
         Simon: "Kitchen"
     },
 
     {
-        Boel: "Living Room",
+        Boel: "Corridor",
         Elton: "Kitchen",
         Simon: "Bathroom"
     },
@@ -77,7 +77,7 @@ const ROTATIONS = [
     {
         Boel: "Kitchen",
         Elton: "Bathroom",
-        Simon: "Living Room"
+        Simon: "Corridor"
     },
 
 
@@ -86,7 +86,7 @@ const ROTATIONS = [
     ========================= */
 
     {
-        Boel: "Living Room",
+        Boel: "Corridor",
         Elton: "Kitchen",
         Simon: "Bathroom"
     },
@@ -94,12 +94,12 @@ const ROTATIONS = [
     {
         Boel: "Kitchen",
         Elton: "Bathroom",
-        Simon: "Living Room"
+        Simon: "Corridor"
     },
 
     {
         Boel: "Bathroom",
-        Elton: "Living Room",
+        Elton: "Corridor",
         Simon: "Kitchen"
     }
 
@@ -371,10 +371,10 @@ function roomClass(room) {
 
 
     if (
-        room === "Living Room"
+        room === "Corridor"
     ) {
 
-        return "living";
+        return "corridor";
 
     }
 
