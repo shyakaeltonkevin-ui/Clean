@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rubik Cleaning Rotation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header>
+        <h1>Cleaning Cube</h1>
+        <p>3rd Floor - Light house</p>
+    </header>
+
+
+    <div class="dashboard">
+
+        <!-- ================= CUBE ================= -->
+
+        <div class="cube-panel">
+
+            <div class="scene">
+
+                <div id="cube" class="cube"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= INFORMATION ================= -->
+
+        <div class="info-panel">
+
+            <div class="today">
+
+                <div class="label">
+                    Today's Cleaning
+                </div>
+
+                <h2 id="dayName">-</h2>
+
+                <div id="dateText" class="date">
+                    -
+                </div>
+
+            </div>
+
+
+            <div id="assignments" class="assignments"></div>
+
+
+            <div class="schedule">
+
+                <h3>Weekly Rotation</h3>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Boel</th>
+                            <th>Elton</th>
+                            <th>Simon</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="scheduleTable"></tbody>
+
+                </table>
+
+            </div>
+
+
+            <div class="controls">
+
+                <button id="nextBtn">
+                    ↻ Next Cleaning Day
+                </button>
+
+                <button id="resetBtn" class="secondary">
+                    Reset Cube
+                </button>
+
+            </div>
+
+
+            <div id="status" class="status">
+                Automatic rotation enabled <br> <br> <br>
+                <a href="https://shyakaeltonkevin-ui.github.io/-/"><strong>SELKTION-TECHAUS</strong></a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
